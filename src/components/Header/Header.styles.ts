@@ -18,6 +18,16 @@ export const Logo = styled.div`
   font-weight: bold;
 `;
 
+export const Content = styled.div`
+  max-width: 1280px;
+  display: flex;
+justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+`;
+
 export const RightSide = styled.div`
   display: flex;
   align-items: center;
@@ -30,18 +40,23 @@ export const Nav = styled.nav`
 
   a {
     text-decoration: none;
-    color: #333;
+    color: #C97C5D;
     font-size: 16px;
     font-weight: bold;
+
+    &:hover {
+      color: #705D56;
+    }
   }
 `;
 
 export const Button = styled.a`
   padding: 10px 20px;
-  background-color:rgb(209, 209, 209);
-  color: #705D56;
+  background-color:#C97C5D;
+  color: white;
   border-radius: 5px;
   text-decoration: none;
+
   &:hover {
     background-color: #705D56;
     color: white;

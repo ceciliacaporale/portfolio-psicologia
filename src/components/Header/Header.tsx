@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { HeaderContainer, Logo, RightSide, Nav, Button, Hamburger, Menu } from './Header.styles';
+import { HeaderContainer, Content, Logo, RightSide, Nav, Button, Hamburger, Menu } from './Header.styles';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,6 +8,7 @@ const Header = () => {
 
   return (
     <HeaderContainer>
+      <Content>
       <Logo>psi.laura</Logo>
       <RightSide>
         <Hamburger onClick={toggleMenu}>
@@ -25,6 +26,7 @@ const Header = () => {
           <Button href="#contato">Agende sua sessão</Button>
         </Menu>
       </RightSide>
+      </Content>
     </HeaderContainer>
   );
 }
