@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeroSectionContainer = styled.div`
  width: 100%;
- background-color: #F0DCCA;
+ background: #F0DCCA;
  height: auto;
  display: flex;
  justify-content: center;
@@ -20,11 +20,13 @@ export const HeroSectionContainer = styled.div`
 
  img {
     border-radius: 30px;
-    margin: 3rem;
+    margin: 3rem 0 3rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 
     @media (max-width: 843px) {
         display: none;
      }
+
      @media (max-width: 1160px) {
         width: 390px;
         height: 500px;
@@ -33,9 +35,10 @@ export const HeroSectionContainer = styled.div`
 `;
 
 export const ContainerText = styled.div`
-max-width: 480px;
+max-width: 740px;
 
-@media (max-width: 1160px) {
+
+@media (max-width: 1344px) {
     padding: 0 2rem;
     max-width: 100%;
 }
@@ -62,8 +65,9 @@ export const Button = styled.a`
   border-radius: 5px;
   text-decoration: none;
   margin-top: 40px;
+  justify-content: flex-start;
   display: inline-flex;
-  align-items: center;
+
   gap: 8px;
 
   &:hover {
