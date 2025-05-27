@@ -12,7 +12,7 @@ export const AccordionItem = styled.div`
 
 export const AccordionTitle = styled.button<{ isOpen: boolean }>`
   width: 100%;
-  padding: 15px 20px;
+  padding: 20px 25px;
   text-align: left;
   background: #f8f8f8;
   border: none;
