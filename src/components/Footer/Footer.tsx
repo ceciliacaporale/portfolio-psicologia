@@ -1,32 +1,31 @@
 import { useState } from 'react';
-import { FooterContainer, Logo, RightSide, Nav, Button, Hamburger, Menu } from './Footer.styles';
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+import { FooterContainer, Logo, SocialMedia, Developer } from './Footer.styles';
 
 const Footer = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => setMenuOpen(prevState => !prevState);
+  const currentYear = new Date().getFullYear();
 
   return (
     <FooterContainer>
       <Logo>psi.laura</Logo>
-      <RightSide>
-        <Hamburger onClick={toggleMenu}>
-          <div></div>
-          <div></div>
-          <div></div>
-        </Hamburger>
-        <Menu menuOpen={menuOpen}>
-          <Nav>
-            <a href="#sobre">Sobre mim</a>
-            <a href="#abordagem">Abordagem</a>
-            <a href="#contato">Contato</a>
-            <a href="#duvidas">Dúvidas</a>
-          </Nav>
-          <Button href="#contato">Agende sua sessão</Button>
-        </Menu>
-      </RightSide>
+      <SocialMedia>
+        <a href="https://instagram.com/instalaura" target="_blank" rel="noopener noreferrer">
+          <FaInstagram size={24} />
+        </a>
+        <a href="https://wa.me/numerolaura" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp size={24} />
+        </a>
+        <a href="mailto:emailaura@email.com">
+          <HiOutlineMail size={24} />
+        </a>
+      </SocialMedia>
+        <p>© {currentYear} Laura Lacerda  - CRP: 123456. Todos os direitos reservados.</p>
+        <Developer>
+        <a href="https://cecicaporale.com/">Develop by @cecicaporale</a>
+        </Developer>
     </FooterContainer>
   );
-}
+};
 
 export default Footer;
