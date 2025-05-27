@@ -1,29 +1,29 @@
 import React from 'react';
-import { ContactContainer, ContactItem, ContainerItens, ContactTitle, MapContainer } from './Contact.styles';
+import { ContactContainer, ContactItem, ContainerItens, MapContainer } from './Contact.styles';
 
 const Contact = () => {
   return (
-    <ContactContainer id="contato">
-      <h3>Atendimento</h3>
-    <ContainerItens>
-      <ContactItem>
-        <h3>Horário</h3>
-        <p>Segunda à Sexta</p>
-        <p>07:00 às 11:00</p>
-      </ContactItem>
+      <>
+      <h3>Atendimento</h3><ContactContainer id="contato">
+      <ContainerItens>
+        <ContactItem>
+          <h3>Horário</h3>
+          <p>Segunda à Sexta</p>
+          <p>07:00 às 11:00</p>
+        </ContactItem>
 
-      <ContactItem>
-        <h3>Serviços</h3>
-        <p>Psicoterapia individual presencial e online</p>
-      </ContactItem>
+        <ContactItem>
+          <h3>Serviços</h3>
+          <p>Psicoterapia individual presencial e online</p>
+        </ContactItem>
 
-      <ContactItem>
-        <h3>Contato</h3>
-        <p>Telefone: (34) 9...</p>
-        <p>Email: psi.lauralacerda@gmail.com</p>
-      </ContactItem>
+        <ContactItem>
+          <h3>Contato</h3>
+          <p>Telefone: (34) 9...</p>
+          <p>Email: psi.lauralacerda@gmail.com</p>
+        </ContactItem>
 
-    </ContainerItens>
+      </ContainerItens>
       <ContactItem>
         <h3>Endereço</h3>
         <p>Espaço Luminar</p>
@@ -44,6 +44,7 @@ const Contact = () => {
         </MapContainer>
       </ContactItem>
     </ContactContainer>
+    </>
   );
 };
 

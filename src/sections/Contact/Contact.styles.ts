@@ -5,14 +5,12 @@ export const ContactContainer = styled.section`
   background-color: #fefefe;
   padding: 4rem 2rem;
   display: flex;
-    flex-direction: column;
   align-items: center;
   gap: 2rem;
 `;
 
 export const ContainerItens = styled.div`
-display: flex;
-flex-direction: row;
+display: column;
 `;
 
 export const ContactTitle = styled.h2`
