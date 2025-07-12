@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { HeaderContainer, Content, Logo, RightSide, Nav, Button, Hamburger, Menu } from './Header.styles';
+import MainLogo from "../../assets/logo_laurapsicologa.png?url";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,7 +10,11 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Content>
-      <Logo>psi.laura</Logo>
+      <Logo>
+        <a href="/">
+        <img src={MainLogo} alt="Logo da Psicóloga Laura" width={250} loading="lazy" />
+        </a>
+      </Logo>
       <RightSide>
         <Hamburger onClick={toggleMenu}>
           <div></div>

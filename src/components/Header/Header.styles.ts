@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HeaderContainer = styled.header`
   width: 100%;
   background-color: white;
-  padding: 20px 40px;
+  padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,17 +11,16 @@ export const HeaderContainer = styled.header`
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-family: "Karla", sans-serif;
 `;
 
 export const Logo = styled.div`
-  font-size: 24px;
-  font-weight: bold;
 `;
 
 export const Content = styled.div`
   max-width: 1280px;
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   margin: 0 auto;
@@ -41,8 +40,8 @@ export const Nav = styled.nav`
   a {
     text-decoration: none;
     color: #C97C5D;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 17px;
+    font-weight: 100;
 
     &:hover {
       color: #705D56;
@@ -52,8 +51,8 @@ export const Nav = styled.nav`
 
 export const Button = styled.a`
   padding: 10px 20px;
-  background-color:#C97C5D;
-  color: white;
+  background-color: #C97C5D;
+  color: white !important;
   border-radius: 5px;
   text-decoration: none;
 
@@ -86,6 +85,14 @@ export const Menu = styled.div<{ menuOpen: boolean }>`
   display: flex;
   align-items: center;
   gap: 4rem;
+
+  a {
+    color: #705D56;
+
+    &:hover {
+    color: #C97C5D;
+  }
+  }
 
   @media (max-width: 817px) {
     display: ${({ menuOpen }) => (menuOpen ? 'flex' : 'none')};

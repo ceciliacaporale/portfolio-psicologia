@@ -9,7 +9,6 @@ const HeroSection = () => {
         src={HeroImage}
         alt={'Imagem da Psicologa Laura'}
         width={470}
-        height={600}
         loading="lazy" />
       <Content>
         <ContainerText>
@@ -23,7 +22,8 @@ const HeroSection = () => {
         </Button>
       </Content>
     </HeroSectionContainer>
-    <Divider /></>
+    <Divider />
+    </>
   );
 }
 

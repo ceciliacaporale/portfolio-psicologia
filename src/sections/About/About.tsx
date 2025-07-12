@@ -1,7 +1,7 @@
-import { AboutContainer, ContainerText, Button } from './About.styles';
+import { AboutContainer, ContainerText, Button, BrandIcon, ContainerImage } from './About.styles';
 import HeroImage from "../../assets/lauralacerda.jpeg?url";
 import { FaRegBuilding, FaLaptop, FaBookOpen, FaCheckCircle, FaUsers } from "react-icons/fa";
-
+import Brand from "../../assets/iconepsi.png?url";
 const About = () => {
   return (
     <AboutContainer>
@@ -37,14 +37,27 @@ const About = () => {
           Saiba mais
         </Button>
       </ContainerText>
-
+    <ContainerImage>
       <img 
         src={HeroImage} 
         alt={'Imagem da Psicóloga Laura'} 
-        width={430} 
-        height={550}
+        width={400} 
         loading="lazy"
+        className="main-image"
       />
+
+      <BrandIcon>
+      <img 
+        src={Brand} 
+        alt={'Imagem da Psicóloga Laura'} 
+        width={110} 
+        height={110}
+        loading="lazy"
+        className="mobile-image"
+        />
+      </BrandIcon>
+    </ContainerImage>
+     
     </AboutContainer>
   );
 };

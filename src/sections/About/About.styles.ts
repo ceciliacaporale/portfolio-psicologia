@@ -20,7 +20,7 @@ export const AboutContainer = styled.div`
     gap: 1rem;
   }
 
-  img {
+  .main-image {
     border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 
@@ -40,7 +40,9 @@ export const ContainerText = styled.div`
   font-size: 1rem;
 
   h2 {
-    font-size: 2rem;
+    color: #efdccb;
+    font-size: 2.2rem;
+    font-family: 'Mansory', sans-serif;
   }
   p {
     margin-top: 20px;
@@ -60,10 +62,10 @@ export const ContainerText = styled.div`
       text-align: center;
 
       h4 {
+        font-weight: 400;
         margin-top: 8px;
-        font-size: 14px;
+        font-size: 15px;
       }
-
     }
   }
 `;
@@ -92,4 +94,33 @@ export const Button = styled.a`
   &:hover svg {
     transform: scale(1.1);
   }
+`;
+
+export const BrandIcon = styled.div`
+  img {
+    position: absolute;
+    right: -30px;
+    top: 370px;
+
+     &:hover {
+    animation-play-state: paused;
+    transform: translateY(-10px);
+  }
+  }
+  @keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+`;
+
+
+export const ContainerImage = styled.div`
+  position: relative;
 `;

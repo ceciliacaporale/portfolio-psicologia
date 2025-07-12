@@ -9,6 +9,7 @@ export const HeroSectionContainer = styled.div`
  align-items: center;
  gap: 4rem;
  padding-top: 6rem;
+ 
 
  @media (max-width: 843px) {
     padding: 6rem 2rem;
@@ -44,11 +45,13 @@ max-width: 740px;
 }
 
 @media (max-width: 567px) {
-    padding: 0;
+  padding: 0;
 }
 
 h1 {
     font-size: 3rem;
+    color: #705D56;
+     font-family: 'Mansory', sans-serif;
 }
 
 p {
