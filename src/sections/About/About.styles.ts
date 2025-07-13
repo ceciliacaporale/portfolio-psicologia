@@ -13,6 +13,12 @@ export const AboutContainer = styled.div`
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 10%;
 
+   @media (max-width: 556px) {
+      border-bottom-right-radius: 6%;
+      border-bottom-left-radius: 6%;
+    }
+
+
   @media (max-width: 843px) {
     padding: 6rem 2rem;
   }

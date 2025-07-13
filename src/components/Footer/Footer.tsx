@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
+import { SlLocationPin } from "react-icons/sl";
 import { FooterContainer, Logo, SocialMedia, Developer, Container, Teste } from './Footer.styles';
 import Brand from '../../assets/marca_dagua.png?url';
 const Footer = () => {
@@ -24,6 +25,13 @@ const Footer = () => {
         </a>
         <a href="mailto:emailaura@email.com">
           <HiOutlineMail size={32} color='#B36A5E'/>
+        </a>
+        <a 
+          href="https://www.google.com/maps/place/Av.+Getúlio+Vargas,+275+-+Centro,+Uberlândia+-+MG,+38400-299" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <SlLocationPin size={32} color="#B36A5E" />
         </a>
       </SocialMedia>
       </Container>

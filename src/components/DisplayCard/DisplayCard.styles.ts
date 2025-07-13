@@ -1,39 +1,68 @@
 import styled from 'styled-components';
 
-export const Card = styled.div`
+export const CarouselContainer = styled.div`
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+`;
+
+export const CardWrapper = styled.div`
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  padding: 1rem;
+  scroll-behavior: smooth;
+  width: 100%;
+  justify-content: flex-start;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+`;
+
+export const Card = styled.div`
+  flex: 0 0 280px;
+  scroll-snap-align: start;
   background-color: #EEE2DF;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  max-width: 300px;
-  margin: 20px;
-  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  svg {
+    font-size: 40px;
+    color: #C97C5D;
+  }
 
   h4 {
+    margin-top: 10px;
     font-size: 1.2rem;
-    margin-top: 15px;
-    font-weight: 400;
     color: #B36A5E;
   }
 
   span {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #4f4f4f;
-    margin-top: 10px;
   }
+`;
 
-  svg {
-    color: #C97C5D;
-    font-size: 40px;
-  }
+export const DotsContainer = styled.div`
+  display: flex;
+  gap: 8px;
+  margin-top: 1rem;
+`;
 
-  &:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    transform: translateY(-5px);
-  }
+export const Dot = styled.button<{ active: boolean }>`
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: ${({ active }) => (active ? '#B36A5E' : '#ccc')};
+  cursor: pointer;
 `;

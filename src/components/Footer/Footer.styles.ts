@@ -33,7 +33,7 @@ export const Logo = styled.div`
 export const SocialMedia = styled.div`
   font-size: 24px;
   font-weight: bold;
-  gap: 1rem;
+  gap: 10px;
   display: flex;
   margin-top: 25px;
 
