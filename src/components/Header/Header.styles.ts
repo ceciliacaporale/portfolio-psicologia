@@ -61,7 +61,7 @@ export const Nav = styled.nav`
   a {
     text-decoration: none;
     color: #C97C5D;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 100;
 
     &:hover {
