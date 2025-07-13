@@ -68,11 +68,8 @@ export const Button = styled.a`
   border-radius: 5px;
   text-decoration: none;
   margin-top: 40px;
-  justify-content: flex-start;
-  display: inline-flex;
-
-  gap: 8px;
-
+  margin-left: 0;
+  
   &:hover {
     background-color:rgb(170, 103, 76);
   }
