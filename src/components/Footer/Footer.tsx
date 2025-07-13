@@ -29,20 +29,20 @@ const Footer = () => {
 
           <SocialMedia>
             <a href="https://instagram.com/instalaura" target="_blank" rel="noopener noreferrer">
-              <FaInstagram size={32} color="#B36A5E" />
+              <FaInstagram size={32} color="#C97C5D" />
             </a>
             <a href="https://wa.me/numerolaura" target="_blank" rel="noopener noreferrer">
-              <FaWhatsapp size={32} color="#B36A5E" />
+              <FaWhatsapp size={32} color="#C97C5D" />
             </a>
             <a href="mailto:emailaura@email.com">
-              <HiOutlineMail size={32} color="#B36A5E" />
+              <HiOutlineMail size={32} color="#C97C5D" />
             </a>
             <a
               href="https://www.google.com/maps/place/Av.+Getúlio+Vargas,+275+-+Centro,+Uberlândia+-+MG,+38400-299"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <SlLocationPin size={32} color="#B36A5E" />
+              <SlLocationPin size={32} color="#C97C5D" />
             </a>
           </SocialMedia>
         </TopRow>
