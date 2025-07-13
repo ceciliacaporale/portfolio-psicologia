@@ -4,12 +4,15 @@ import {
   ContactItem,
   ContainerItens,
   ContainerMain,
+  BrandIcon,
+  ContainerImage
 } from './Contact.styles';
 import { LuClock8 } from 'react-icons/lu';
 import { BsTelephone, BsHouseHeart } from 'react-icons/bs';
 import { SlLocationPin } from 'react-icons/sl';
 import { GoComment } from 'react-icons/go';
 import LauraPsi from '../../assets/Laura_Lacerda_239.jpg?url';
+import Brand from '../../assets/brand-psi.png?url';
 
 const iconColor = '#B36A5E';
 
@@ -17,14 +20,25 @@ const Contact = () => {
   return (
     <ContainerMain>
       <ContactContainer id="contato" as="section">
+        <ContainerImage>
         <img
           src={LauraPsi}
           alt="Psicóloga Laura Lacerda"
           width={400}
           loading="lazy"
           className="main-image"
-        />
-
+          />
+        <BrandIcon>
+          <img
+            src={Brand}
+            alt="Ícone da Psicologia"
+            width={110}
+            height={110}
+            loading="lazy"
+            className="mobile-image"
+            />
+        </BrandIcon>
+        </ContainerImage>
         <ContainerItens>
           <ContactItem as="address">
             <p className="subtitle">Atendimento:</p>

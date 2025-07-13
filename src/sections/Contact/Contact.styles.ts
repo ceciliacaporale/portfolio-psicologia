@@ -7,7 +7,7 @@ export const ContainerMain = styled.div`
 export const ContactContainer = styled.section`
   width: 100%;
   background-color: #F0DCCA;
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,3 +60,33 @@ export const ContactItem = styled.div`
   }
 `;
 
+
+export const BrandIcon = styled.div`
+  img {
+    position: absolute;
+    top: 340px;
+    left: 320px;    
+    animation: float 4s ease-in-out infinite;
+
+    @media (max-width: 1160px) {
+     display: none;
+    }
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+`;
+
+
+export const ContainerImage = styled.div`
+position: relative;
+`;
