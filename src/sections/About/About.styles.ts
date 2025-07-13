@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
   width: 100%;
-  background-color: #C97C5D;
+  background-color: #705D56;
   height: auto;
   display: flex;
+  color: #efdccb;
   justify-content: center;
   align-items: center;
   gap: 6rem;
@@ -40,7 +41,6 @@ export const ContainerText = styled.div`
   font-size: 1rem;
 
   h2 {
-    color: #efdccb;
     font-size: 2.2rem;
     font-family: 'Mansory', sans-serif;
   }
@@ -72,7 +72,7 @@ export const ContainerText = styled.div`
 
 export const Button = styled.a`
   padding: 10px 20px;
-  background-color: rgb(209, 209, 209);
+  background-color: #EEE2DF;
   color: #705D56;
   border-radius: 5px;
   text-decoration: none;
@@ -83,7 +83,7 @@ export const Button = styled.a`
   gap: 8px;
 
   &:hover {
-    background-color: #705D56;
+    background-color: #B36A5E;
     color: white;
   }
 
@@ -97,17 +97,19 @@ export const Button = styled.a`
 `;
 
 export const BrandIcon = styled.div`
-  img {
-    position: absolute;
-    right: -30px;
-    top: 370px;
+ img {
+  position: absolute;
+  right: -30px;
+  top: 370px;
+  
+  animation: float 4s ease-in-out infinite;
+   @media (max-width: 843px) {
+      display: none;
+    }
 
-     &:hover {
-    animation-play-state: paused;
-    transform: translateY(-10px);
-  }
-  }
-  @keyframes float {
+}
+
+@keyframes float {
   0% {
     transform: translateY(0px);
   }

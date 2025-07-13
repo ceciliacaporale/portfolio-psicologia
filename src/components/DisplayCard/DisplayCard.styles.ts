@@ -5,7 +5,7 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #E3D6D3;
+  background-color: #EEE2DF;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -17,6 +17,8 @@ export const Card = styled.div`
   h4 {
     font-size: 1.2rem;
     margin-top: 15px;
+    font-weight: 400;
+    color: #B36A5E;
   }
 
   span {
@@ -26,7 +28,7 @@ export const Card = styled.div`
   }
 
   svg {
-    color: #B36A5E;
+    color: #C97C5D;
     font-size: 40px;
   }
 

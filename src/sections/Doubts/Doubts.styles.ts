@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const DoubtsContainer = styled.div`
  width: 100%;
  background-color: #F0DCCA;
+ border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
  height: 500px;
  display: flex;
  gap: 2rem;
@@ -12,6 +14,7 @@ export const DoubtsContainer = styled.div`
 
  h2 {
     font-size: 2rem;
+    font-family: 'Mansory', sans-serif;
  }
 `;
 

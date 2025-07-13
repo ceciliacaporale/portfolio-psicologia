@@ -44,20 +44,20 @@ export const Nav = styled.nav`
     font-weight: 100;
 
     &:hover {
-      color: #705D56;
+      color: #B36A5E;
     }
   }
 `;
 
 export const Button = styled.a`
   padding: 10px 20px;
-  background-color: #C97C5D;
+  background-color: #705D56;
   color: white !important;
   border-radius: 5px;
   text-decoration: none;
 
   &:hover {
-    background-color: #705D56;
+    background-color: #B36A5E;
     color: white;
   }
 `;
@@ -90,7 +90,7 @@ export const Menu = styled.div<{ menuOpen: boolean }>`
     color: #705D56;
 
     &:hover {
-    color: #C97C5D;
+    color: #B36A5E;
   }
   }
 
