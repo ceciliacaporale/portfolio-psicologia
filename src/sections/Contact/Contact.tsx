@@ -5,6 +5,7 @@ import { BsTelephone } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
 import { BsHouseHeart } from "react-icons/bs";
 import LauraPsi from "../../assets/Laura_Lacerda_239.jpg?url";
+import { GoComment } from "react-icons/go";
 
 const Contact = () => {
   return (
@@ -23,10 +24,11 @@ const Contact = () => {
           <p className='subtitle'>Atendimento:</p>
           <p><LuClock8 color='#B36A5E' />Seg - Sex: 9:00h - 18:00h</p>
           <p><BsTelephone color='#B36A5E'/> Telefone: (34) 999999</p>
+          <p><GoComment color='#B36A5E'/>Online e Presencial</p>
           <a href="https://www.instagram.com/luminar.saudemental/" target='_blank'>
           <p><BsHouseHeart color='#B36A5E'/>Espaço Luminar</p>
           </a>
-          <p><SlLocationPin color='#B36A5E'/>Avenida Getúlio Vargas, 275, Centro - Uberlândia</p>
+          <p><SlLocationPin color='#B36A5E' width={32} height={32}/>Avenida Getúlio Vargas, 275, Centro - Uberlândia</p>
         </ContactItem>
 
       </ContainerItens>
