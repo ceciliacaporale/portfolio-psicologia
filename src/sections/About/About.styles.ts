@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
   width: 100%;
-  background-color:#C97C5D;
+  background-color: #C97C5D;
   height: auto;
   display: flex;
+  flex-direction: column;
   color: #000;
   justify-content: center;
   align-items: center;
@@ -13,39 +14,48 @@ export const AboutContainer = styled.div`
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 10%;
 
-   @media (max-width: 556px) {
-      border-bottom-right-radius: 6%;
-      border-bottom-left-radius: 6%;
-      
-    }
+  @media (max-width: 556px) {
+    border-bottom-right-radius: 6%;
+    border-bottom-left-radius: 6%;
+  }
 
-  @media (max-width: 843px) {
-    padding: 6rem 2rem 2rem 2rem;
-    display: flex;
-    flex-direction: column;
+  @media (min-width: 844px) {
+    flex-direction: row-reverse;
+    padding: 4rem 6rem;
+    gap: 5rem;
   }
 
   @media (max-width: 1160px) {
     gap: 3rem;
   }
 
-  @media (max-width: 843px) {
-     gap: 2rem;
-  }
-
   .main-image {
     border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+    @media (max-width: 1021px) {
+      width: 370px;
+    }
+
+      @media (max-width: 942px) {
+      width: 350px;
+    }
+  
+     @media (max-width: 893px) {
+      width: 300px;
+    }
 
     @media (max-width: 843px) {
       width: 400px;
     }
 
-     @media (max-width: 434px) {
-     width: 300px;
-  }
+    @media (max-width: 434px) {
+      width: 300px;
+    }
   }
 `;
+
 
 export const ContainerText = styled.div`
   max-width: 700px;
@@ -116,10 +126,23 @@ export const BrandIcon = styled.div`
   
   animation: float 4s ease-in-out infinite;
 
-  @media (max-width: 843px) {
-    width: 90px;
+   @media (max-width: 1021px) {
+      width: 90px;
     height: 90px;
+    top: 340px;
     }
+
+      @media (max-width: 942px) {
+        width: 70px;
+      height: 70px;
+      top: 300px;
+    }
+
+    @media (max-width: 843px) {
+      width: 90px;
+      height: 90px;
+      top: 370px;
+      }
 
      @media (max-width: 434px) {
       display: none;
