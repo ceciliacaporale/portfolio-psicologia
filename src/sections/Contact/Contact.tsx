@@ -1,34 +1,28 @@
 import React from 'react';
-import { ContactContainer, ContactItem, ContainerItens, MapContainer } from './Contact.styles';
+import { ContactContainer, ContactItem, ContainerItens, MapContainer, ContainerMain } from './Contact.styles';
+import { LuClock8 } from "react-icons/lu";
+import { BsTelephone } from "react-icons/bs";
+import { SlLocationPin } from "react-icons/sl";
+import { BsHouseHeart } from "react-icons/bs";
 
 const Contact = () => {
   return (
       <>
-      <h3>Atendimento</h3><ContactContainer id="contato">
+      <ContainerMain>
+    <ContactContainer id="contato">
       <ContainerItens>
         <ContactItem>
-          <h3>Horário</h3>
-          <p>Segunda à Sexta</p>
-          <p>07:00 às 11:00</p>
-        </ContactItem>
-
-        <ContactItem>
-          <h3>Serviços</h3>
-          <p>Psicoterapia individual presencial e online</p>
-        </ContactItem>
-
-        <ContactItem>
-          <h3>Contato</h3>
-          <p>Telefone: (34) 9...</p>
-          <p>Email: psi.lauralacerda@gmail.com</p>
+          <p className='subtitle'>Atendimento:</p>
+          <p><LuClock8 color='#B36A5E' />Seg - Sex: 9:00h - 18:00h</p>
+          <p><BsTelephone color='#B36A5E'/> Telefone: (34) 999999</p>
+          <a href="https://www.instagram.com/luminar.saudemental/" target='_blank'>
+          <p><BsHouseHeart color='#B36A5E'/>Espaço Luminar</p>
+          </a>
+          <p><SlLocationPin color='#B36A5E'/>Avenida Getúlio Vargas, 275, Centro - Uberlândia</p>
         </ContactItem>
 
       </ContainerItens>
       <ContactItem>
-        <h3>Endereço</h3>
-        <p>Espaço Luminar</p>
-        <p>Avenida Getúlio Vargas, 275, Centro, Uberlândia - MG</p>
-        <p>38400-299, Brasil</p>
 
         <MapContainer>
           <iframe
@@ -44,6 +38,8 @@ const Contact = () => {
         </MapContainer>
       </ContactItem>
     </ContactContainer>
+    </ContainerMain>
+
     </>
   );
 };

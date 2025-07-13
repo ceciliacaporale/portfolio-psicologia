@@ -1,42 +1,48 @@
 import styled from 'styled-components';
 
+export const ContainerMain = styled.div`
+ background-color: #F0DCCA;;
+`;
+
 export const ContactContainer = styled.section`
   width: 100%;
-  background-color: #fefefe;
+  background-color: #EEE2DF;
   padding: 4rem 2rem;
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 11rem;
+  border-top-right-radius: 80px;
 `;
 
 export const ContainerItens = styled.div`
-display: column;
-`;
-
-export const ContactTitle = styled.h2`
-  font-size: 2.5rem;
-  color: #C97C5D;
-  margin-bottom: 2rem;
-`;
+  `;
 
 export const ContactItem = styled.div`
   text-align: center;
 
-  h3 {
-    font-size: 1.6rem;
-    color: #705D56;
-    margin-bottom: 0.5rem;
+  .subtitle {
+   color: #B36A5E;
+   font-size: 1.5rem;
+   font-family: 'Mansory', sans-serif;
+   margin-bottom: 10px;
+   font-weight: bold;
+  }
+
+  a {
   }
 
   p {
     font-size: 1.2rem;
     color: #4f4f4f;
+    align-items: center;
+    display: flex;
     margin: 4px 0;
+    gap: 10px;
   }
 `;
 
 export const MapContainer = styled.div`
-  margin-top: 1rem;
   width: 100%;
   max-width: 600px;
   height: 300px;
