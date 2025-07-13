@@ -4,12 +4,20 @@ import { LuClock8 } from "react-icons/lu";
 import { BsTelephone } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
 import { BsHouseHeart } from "react-icons/bs";
+import LauraPsi from "../../assets/Laura_Lacerda_239.jpg?url";
 
 const Contact = () => {
   return (
       <>
       <ContainerMain>
     <ContactContainer id="contato">
+        <img
+          src={LauraPsi}
+          alt="Psicóloga Laura Lacerda"
+          width={400}
+          loading="lazy"
+          className="main-image"
+        />
       <ContainerItens>
         <ContactItem>
           <p className='subtitle'>Atendimento:</p>

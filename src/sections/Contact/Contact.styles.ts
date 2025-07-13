@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContainerMain = styled.div`
- background-color: #F0DCCA;;
+ background-color: #B36A5E;
 `;
 
 export const ContactContainer = styled.section`
@@ -11,8 +11,13 @@ export const ContactContainer = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 11rem;
+  gap: 9rem;
   border-top-right-radius: 80px;
+
+  .main-image {
+     border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
 `;
 
 export const ContainerItens = styled.div`
@@ -30,6 +35,7 @@ export const ContactItem = styled.div`
   }
 
   a {
+    color: #000;
   }
 
   p {
