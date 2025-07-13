@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
   width: 100%;
-  background-color: #705D56;
+  background-color:#C97C5D;
   height: auto;
   display: flex;
   color: #efdccb;

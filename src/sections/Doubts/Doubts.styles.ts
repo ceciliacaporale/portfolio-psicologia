@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const DoubtsContainer = styled.div`
  width: 100%;
- background-color: #C97C5D;
+ background-color: #B36A5E;
  border-top-left-radius: 80px;
  border-top-right-radius: 80px;
  display: flex;
