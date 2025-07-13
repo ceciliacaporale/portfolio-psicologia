@@ -14,9 +14,23 @@ export const ContactContainer = styled.section`
   gap: 9rem;
   border-top-right-radius: 80px;
 
+   @media (max-width: 1160px) {
+     gap: 4rem;
+    }
+
+     @media (max-width: 725px) {
+     gap: 2rem;
+      flex-direction: column;
+      padding: 2rem 2rem;
+    }
+
   .main-image {
      border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+    @media (max-width: 1160px) {
+      width: 290px;
+    }
   }
 `;
 
@@ -24,8 +38,6 @@ export const ContainerItens = styled.div`
   `;
 
 export const ContactItem = styled.div`
-  text-align: center;
-
   .subtitle {
    color: #B36A5E;
    font-size: 1.5rem;
