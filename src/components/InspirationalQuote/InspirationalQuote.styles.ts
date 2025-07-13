@@ -8,7 +8,6 @@ export const QuoteContainer = styled.div`
   font-weight: 600;
   color: #705d56;
   border-radius: 10px;
-  margin-bottom: 20px;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
