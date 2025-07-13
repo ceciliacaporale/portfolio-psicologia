@@ -6,7 +6,7 @@ export const ContainerMain = styled.div`
 
 export const ContactContainer = styled.section`
   width: 100%;
-  background-color: #EEE2DF;
+  background-color: #F0DCCA;
   padding: 4rem 2rem;
   display: flex;
   justify-content: center;
