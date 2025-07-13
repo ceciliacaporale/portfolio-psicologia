@@ -5,7 +5,7 @@ export const AboutContainer = styled.div`
   background-color:#C97C5D;
   height: auto;
   display: flex;
-  color: #efdccb;
+  color: #000;
   justify-content: center;
   align-items: center;
   gap: 6rem;
