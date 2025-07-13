@@ -4,7 +4,7 @@ import { FaRegBuilding, FaLaptop, FaBookOpen, FaCheckCircle, FaUsers } from "rea
 import Brand from "../../assets/iconepsi.png?url";
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id="sobre">
       <ContainerText>
         <h2>Como funciona meu trabalho?</h2>
         <p>

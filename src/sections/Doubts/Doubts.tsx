@@ -17,7 +17,7 @@ const duvidas = [
 ];
 
 const Doubts = () => (
-  <DoubtsContainer>
+  <DoubtsContainer id="duvidas">
     <h2>Dúvidas Frequentes</h2>
     <Accordion items={duvidas} />
   </DoubtsContainer>
