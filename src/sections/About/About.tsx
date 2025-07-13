@@ -5,6 +5,26 @@ import Brand from "../../assets/iconepsi.png?url";
 const About = () => {
   return (
     <AboutContainer id="sobre">
+    <ContainerImage>
+      <img 
+        src={HeroImage} 
+        alt={'Imagem da Psicóloga Laura'} 
+        width={400} 
+        loading="lazy"
+        className="main-image"
+      />
+
+      <BrandIcon>
+      <img 
+        src={Brand} 
+        alt={'Imagem da Psicóloga Laura'} 
+        width={110} 
+        height={110}
+        loading="lazy"
+        className="mobile-image"
+        />
+      </BrandIcon>
+    </ContainerImage>
       <ContainerText>
         <h2>Como funciona meu trabalho?</h2>
         <p>
@@ -37,26 +57,6 @@ const About = () => {
           Saiba mais
         </Button>
       </ContainerText>
-    <ContainerImage>
-      <img 
-        src={HeroImage} 
-        alt={'Imagem da Psicóloga Laura'} 
-        width={400} 
-        loading="lazy"
-        className="main-image"
-      />
-
-      <BrandIcon>
-      <img 
-        src={Brand} 
-        alt={'Imagem da Psicóloga Laura'} 
-        width={110} 
-        height={110}
-        loading="lazy"
-        className="mobile-image"
-        />
-      </BrandIcon>
-    </ContainerImage>
      
     </AboutContainer>
   );

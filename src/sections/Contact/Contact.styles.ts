@@ -57,6 +57,12 @@ export const ContactItem = styled.div`
     display: flex;
     margin: 4px 0;
     gap: 10px;
+
+    @media (max-width: 620px) {
+      justify-content: center;
+      align-items: center;
+      max-width: 250px;
+    }
   }
 `;
 

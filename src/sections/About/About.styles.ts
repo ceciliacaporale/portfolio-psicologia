@@ -16,15 +16,21 @@ export const AboutContainer = styled.div`
    @media (max-width: 556px) {
       border-bottom-right-radius: 6%;
       border-bottom-left-radius: 6%;
+      
     }
 
-
   @media (max-width: 843px) {
-    padding: 6rem 2rem;
+    padding: 6rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
   }
 
   @media (max-width: 1160px) {
-    gap: 1rem;
+    gap: 3rem;
+  }
+
+  @media (max-width: 843px) {
+     gap: 2rem;
   }
 
   .main-image {
@@ -32,13 +38,12 @@ export const AboutContainer = styled.div`
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 
     @media (max-width: 843px) {
-      display: none;
+      width: 400px;
     }
 
-    @media (max-width: 1160px) {
-      width: 390px;
-      height: 500px;
-    }
+     @media (max-width: 434px) {
+     width: 300px;
+  }
   }
 `;
 
@@ -49,6 +54,7 @@ export const ContainerText = styled.div`
   h2 {
     font-size: 2.2rem;
     font-family: 'Mansory', sans-serif;
+    
   }
   p {
     margin-top: 20px;
@@ -109,9 +115,15 @@ export const BrandIcon = styled.div`
   top: 370px;
   
   animation: float 4s ease-in-out infinite;
-   @media (max-width: 843px) {
-      display: none;
+
+  @media (max-width: 843px) {
+    width: 90px;
+    height: 90px;
     }
+
+     @media (max-width: 434px) {
+      display: none;
+  }
 
 }
 
