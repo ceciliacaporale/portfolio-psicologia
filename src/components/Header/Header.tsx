@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { HeaderContainer, Content, Logo, RightSide, Nav, Button, Hamburger, Menu } from './Header.styles';
-import MainLogo from "../../assets/logo_laurapsicologa.png?url";
+import MainLogo from "../../assets/logo_laurapsicologa2.png?url";
+import MobileLogo from "../../assets/marca_dagua.png?url";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +13,8 @@ const Header = () => {
       <Content>
       <Logo>
         <a href="/">
-        <img src={MainLogo} alt="Logo da Psicóloga Laura" width={250} loading="lazy" />
+        <img src={MainLogo} alt="Logo Psicóloga Laura" width={260} loading="lazy" className="desktop-logo" />
+        <img src={MobileLogo} alt="Logo Psicóloga Laura" width={60} loading="lazy" className="mobile-logo" />
         </a>
       </Logo>
       <RightSide>
