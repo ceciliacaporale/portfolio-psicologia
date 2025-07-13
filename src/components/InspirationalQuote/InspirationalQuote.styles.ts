@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const QuoteContainer = styled.div`
   padding: 30px;
   text-align: center;
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: 600;
-  color: #705d56;
+  color: #B36A5E;
   border-radius: 10px;
   opacity: 0;
   transform: translateY(20px);
@@ -17,6 +17,9 @@ export const QuoteContainer = styled.div`
   }
 
   p {
-    font-style: italic;
+  font-family: "Send Flowers", cursive;
+  font-weight: 400;
+  font-style: normal;
+
   }
 `;
