@@ -1,46 +1,56 @@
 import styled from 'styled-components';
 
-export const Teste = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+export const FooterWrapper = styled.footer`
   width: 100%;
   background-color: #EEE2DF;
-  
-  
-  p {
-    color: #705D56;
-    font-weight: 100;
-  }
-  `;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
 
-export const FooterContainer = styled.footer`
-  width: 50%;
+  @media (max-width: 568px) {
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+  }
+`;
+
+export const FooterContainer = styled.div`
+  width: 100%;
+  max-width: 1280px;
   display: flex;
   flex-direction: column;
-  justify-content: center;   
+  gap: 1rem;
+  padding: 0 1rem;
+`;
+
+export const TopRow = styled.div`
+  display: flex;
   align-items: center;
-  padding: 20px;
-  gap: 12px;
-  text-align: center;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Logo = styled.div`
-  font-size: 24px;
-  font-weight: bold;
+  img {
+    width: 70px;
+  }
 `;
 
 export const SocialMedia = styled.div`
-  font-size: 24px;
-  font-weight: bold;
-  gap: 10px;
   display: flex;
-  margin-top: 25px;
+  gap: 1rem;
 
   svg {
     background-color: white;
     border-radius: 10px;
-    padding: 5px;
+    padding: 6px;
     transition: transform 0.2s;
 
     &:hover {
@@ -49,19 +59,24 @@ export const SocialMedia = styled.div`
   }
 `;
 
-
-export const Developer = styled.div`
-  font-size: 10px;
-
-  a {
-    color: #EEE2DF;
-    text-decoration: none;
-  }
+export const Copy = styled.p`
+  color: #705D56;
+  font-weight: 100;
+  font-size: 0.95rem;
+  text-align: center;
 `;
 
-export const Container = styled.div`
-display: flex;
-justify-content: space-between;
-width: 100%;
+export const Developer = styled.div`
+  font-size: 0.75rem;
+  text-align: center;
 
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 `;

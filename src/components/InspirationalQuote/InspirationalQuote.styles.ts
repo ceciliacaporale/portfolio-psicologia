@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const QuoteContainer = styled.div`
-  background-color: #f5f5f5;
   padding: 30px;
   text-align: center;
   font-size: 24px;
