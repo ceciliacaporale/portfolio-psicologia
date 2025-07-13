@@ -3,10 +3,9 @@ import styled from 'styled-components';
 export const AboutContainer = styled.div`
   width: 100%;
   background-color: #C97C5D;
-  height: auto;
+  color: #000;
   display: flex;
   flex-direction: column;
-  color: #000;
   justify-content: center;
   align-items: center;
   gap: 6rem;
@@ -33,16 +32,15 @@ export const AboutContainer = styled.div`
     border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-
     @media (max-width: 1021px) {
       width: 370px;
     }
 
-      @media (max-width: 942px) {
+    @media (max-width: 942px) {
       width: 350px;
     }
-  
-     @media (max-width: 893px) {
+
+    @media (max-width: 893px) {
       width: 300px;
     }
 
@@ -56,7 +54,6 @@ export const AboutContainer = styled.div`
   }
 `;
 
-
 export const ContainerText = styled.div`
   max-width: 700px;
   font-size: 1rem;
@@ -64,8 +61,8 @@ export const ContainerText = styled.div`
   h2 {
     font-size: 2.2rem;
     font-family: 'Mansory', sans-serif;
-    
   }
+
   p {
     margin-top: 20px;
   }
@@ -78,10 +75,8 @@ export const ContainerText = styled.div`
 
     .service {
       display: flex;
-      flex-direction: row;
       align-items: center;
       gap: 8px;
-      text-align: center;
 
       h4 {
         font-weight: 400;
@@ -93,12 +88,12 @@ export const ContainerText = styled.div`
 `;
 
 export const Button = styled.a`
+  margin-top: 20px;
   padding: 10px 20px;
   background-color: #EEE2DF;
   color: #705D56;
   border-radius: 5px;
   text-decoration: none;
-  margin-top: 20px;
   display: inline-flex;
   align-items: center;
   font-weight: 500;
@@ -119,21 +114,20 @@ export const Button = styled.a`
 `;
 
 export const BrandIcon = styled.div`
- img {
-  position: absolute;
-  right: -30px;
-  top: 370px;
-  
-  animation: float 4s ease-in-out infinite;
+  img {
+    position: absolute;
+    right: -30px;
+    top: 370px;
+    animation: float 4s ease-in-out infinite;
 
-   @media (max-width: 1021px) {
+    @media (max-width: 1021px) {
       width: 90px;
-    height: 90px;
-    top: 340px;
+      height: 90px;
+      top: 340px;
     }
 
-      @media (max-width: 942px) {
-        width: 70px;
+    @media (max-width: 942px) {
+      width: 70px;
       height: 70px;
       top: 300px;
     }
@@ -142,27 +136,25 @@ export const BrandIcon = styled.div`
       width: 90px;
       height: 90px;
       top: 370px;
-      }
+    }
 
-     @media (max-width: 434px) {
+    @media (max-width: 434px) {
       display: none;
+    }
   }
 
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0px);
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
   }
-  50% {
-    transform: translateY(-8px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 `;
-
 
 export const ContainerImage = styled.div`
   position: relative;

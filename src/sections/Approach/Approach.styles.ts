@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const ApproachContainer = styled.div`
   width: 100%;
-  flex-direction: column;
   height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #705D56;
@@ -18,5 +18,6 @@ export const ApproachContainer = styled.div`
 
   p {
     font-size: 1.1rem;
+    text-align: center;
   }
 `;
