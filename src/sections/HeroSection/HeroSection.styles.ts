@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeroSectionContainer = styled.div`
  width: 100%;
- background: #F0DCCA;
+ background: #EEE2DF;
  height: auto;
  display: flex;
  justify-content: center;
