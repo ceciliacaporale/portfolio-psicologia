@@ -44,7 +44,7 @@ const Contact = () => {
             <p className="subtitle">Atendimento:</p>
             <p>
               <LuClock8 color={iconColor} />
-              Seg - Sex: 9:00h - 19:00h
+              Seg - Sex: 8:00h - 19:00h
             </p>
             <p>
               <BsTelephone color={iconColor} />
