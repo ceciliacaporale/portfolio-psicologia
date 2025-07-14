@@ -51,7 +51,7 @@ const About = () => {
       <ContainerText>
         <h2>Como funciona meu trabalho?</h2>
         <p>
-          Minha abordagem terapêutica é fundamentada em evidências científicas e focada em resultados, garantindo um processo seguro, respeitoso e personalizado para cada pessoa. Trabalho com psicoterapia individual para adolescentes e adultos, oferecendo sessões semanais, com duração de 50 minutos, de forma online ou presencial em Uberlândia - MG.
+           Minha abordagem terapêutica é fundamentada em evidências científicas e focada em resultados, garantindo um processo seguro, respeitoso e personalizado para cada pessoa. Trabalho seguindo a abordagem cognitivo comportamental, com psicoterapia individual para adolescentes e adultos. Ofereço sessões semanais, com duração de 50 minutos, de forma online ou presencial em Uberlândia - MG.
         </p>
 
         <div className="services">
