@@ -28,7 +28,7 @@ const Footer = () => {
           </Logo>
 
           <SocialMedia>
-            <a href="https://instagram.com/instalaura" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/luminar.saudemental/" target="_blank" rel="noopener noreferrer">
               <FaInstagram size={32} color="#C97C5D" />
             </a>
             <a href="https://wa.me/numerolaura" target="_blank" rel="noopener noreferrer">
@@ -47,7 +47,7 @@ const Footer = () => {
           </SocialMedia>
         </TopRow>
 
-        <Copy>© {currentYear} Laura Lacerda - CRP: 123456</Copy>
+        <Copy>© {currentYear} Laura Lacerda - CRP: 04/80236</Copy>
 
         <Developer>
           <a href="https://cecicaporale.com/" target="_blank" rel="noopener noreferrer">

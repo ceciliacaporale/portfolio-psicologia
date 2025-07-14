@@ -44,11 +44,11 @@ const Contact = () => {
             <p className="subtitle">Atendimento:</p>
             <p>
               <LuClock8 color={iconColor} />
-              Seg - Sex: 9:00h - 18:00h
+              Seg - Sex: 9:00h - 19:00h
             </p>
             <p>
               <BsTelephone color={iconColor} />
-             <a href="tel:+5534999999999">Telefone: (34) 99999-9999</a>
+             <a href="tel:+5534984146045">Telefone: (34) 98414-6045</a>
             </p>
             <p>
               <GoComment color={iconColor} />
