@@ -10,7 +10,7 @@ export const HeroSectionContainer = styled.div`
   gap: 4rem;
   padding-top: 6rem;
 
-  @media (max-width: 843px) {
+  @media (max-width: 894px) {
     padding: 6rem 2rem;
   }
 
