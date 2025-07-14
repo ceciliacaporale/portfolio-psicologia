@@ -1,5 +1,6 @@
 import { DoubtsContainer } from './Doubts.styles';
 import Accordion from "../../components/Accordion";
+import { ContainerBackground } from '../../components/Footer/Footer.styles';
 
 const duvidas = [
   {
@@ -17,10 +18,12 @@ const duvidas = [
 ];
 
 const Doubts = () => (
+  <ContainerBackground>
   <DoubtsContainer id="duvidas">
     <h2>Dúvidas Frequentes</h2>
     <Accordion items={duvidas} />
   </DoubtsContainer>
+  </ContainerBackground>
 );
 
 export default Doubts;

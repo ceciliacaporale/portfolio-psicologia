@@ -7,7 +7,6 @@ export const QuoteContainer = styled.div`
   font-weight: 600;
   color: #B36A5E;
   background-color: white;
-  border-radius: 10px;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;

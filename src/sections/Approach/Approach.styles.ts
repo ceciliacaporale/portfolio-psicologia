@@ -7,6 +7,7 @@ export const ApproachContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
   color: #705D56;
   gap: 1rem;
   padding: 4rem;

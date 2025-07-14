@@ -14,6 +14,7 @@ import {
   FaCheckCircle,
   FaUsers,
 } from "react-icons/fa";
+import { ContainerBackground } from '../../components/Footer/Footer.styles';
 
 const services = [
   { icon: <FaCheckCircle size={14} />, label: "CRP 04/80236" },
@@ -25,6 +26,7 @@ const services = [
 
 const About = () => {
   return (
+    <ContainerBackground>
     <AboutContainer id="sobre">
       <ContainerImage>
         <img
@@ -66,6 +68,7 @@ const About = () => {
         </Button>
       </ContainerText>
     </AboutContainer>
+    </ContainerBackground>
   );
 };
 
