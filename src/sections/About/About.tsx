@@ -61,7 +61,7 @@ const About = () => {
           ))}
         </div>
 
-        <Button href="/">
+        <Button href="https://wa.me/5534984146045?text=Oi%21%20Gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es%20de%20terapia" target='_blank'>
           Saiba mais
         </Button>
       </ContainerText>

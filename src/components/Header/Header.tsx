@@ -30,7 +30,7 @@ const Header = () => {
             <a href="#contato">Contato</a>
             <a href="#duvidas">Dúvidas</a>
           </Nav>
-          <Button href="#contato">Agende sua sessão</Button>
+          <Button href="https://wa.me/5534984146045?text=Oi%21%20Gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es%20de%20terapia" target='_blank'>Agende sua sessão</Button>
         </Menu>
       </RightSide>
       </Content>

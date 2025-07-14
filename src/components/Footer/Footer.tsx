@@ -10,6 +10,7 @@ import {
   Copy,
   Developer,
   TopRow,
+  ContainerBackground
 } from './Footer.styles';
 
 import Brand from '../../assets/marca_dagua.png?url';
@@ -18,6 +19,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
+    <ContainerBackground>
     <FooterWrapper>
       <FooterContainer>
         <TopRow>
@@ -31,7 +33,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/luminar.saudemental/" target="_blank" rel="noopener noreferrer">
               <FaInstagram size={32} color="#C97C5D" />
             </a>
-            <a href="https://wa.me/numerolaura" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5534984146045?text=Oi%21%20Gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es%20de%20terapia" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp size={32} color="#C97C5D" />
             </a>
             <a href="mailto:emailaura@email.com">
@@ -56,6 +58,7 @@ const Footer = () => {
         </Developer>
       </FooterContainer>
     </FooterWrapper>
+    </ContainerBackground>
   );
 };
 

@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const ContainerBackground = styled.div`
+  background-color: white;
+`;
+
 export const FooterWrapper = styled.footer`
   width: 100%;
   background-color: #EEE2DF;
