@@ -8,6 +8,7 @@ export const Container = styled.div`
   height: 0;
   text-align: center;
   position: relative;
+  transform: translateZ(0); 
 
   .transparent-button {
     margin: 0 auto;
