@@ -58,12 +58,16 @@ export const Nav = styled.nav`
   display: flex;
   gap: 30px;
 
+  
   a {
     text-decoration: none;
     color: #C97C5D;
     font-size: 20px;
     font-weight: 100;
-
+    
+    @media (max-width: 868px) {
+    font-size: 16px;
+  }
     &:hover {
       color: #B36A5E;
     }
