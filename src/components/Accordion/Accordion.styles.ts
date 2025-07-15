@@ -17,11 +17,11 @@ export const AccordionItem = styled.div`
 
 export const AccordionTitle = styled.button<{ isOpen: boolean }>`
   width: 100%;
-  padding: 20px 25px;
+  padding: 18px 30px;
   text-align: left;
   background: #f8f8f8;
   border: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #705d56;
   cursor: pointer;
   display: flex;
