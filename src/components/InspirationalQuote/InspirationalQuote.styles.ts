@@ -16,10 +16,11 @@ export const QuoteContainer = styled.div`
     transform: translateY(0);
   }
 
-  p {
-  font-family: "Send Flowers", cursive;
-  font-weight: 400;
-  font-style: normal;
-
+.Typewriter {
+    font-family: "Send Flowers", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: inherit;
+    font-size: inherit;
   }
 `;
