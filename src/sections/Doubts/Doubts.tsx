@@ -9,7 +9,7 @@ const duvidas = [
   },
   {
     title: "Você atende convênios?",
-    content: "Atualmente as sessões são particulares, mas forneço recibos que podem ser utilizados para solicitar reembolso ao seu plano de saúde, caso ofereça essa possibilidade.",
+    content: "Atualmente as sessões são particulares, mas forneço recibos que podem ser utilizados para solicitar reembolso ao seu plano de saúde, caso ofereça essa possibilidade. O serviço é prestado em forma de assinatura mensal que inclui 4 sessões de psicoterapia semanais em horário fixo. Para consultar os valores entre em contato.",
   },
   {
     title: "Qual é a frequência e duração das sessões?",
@@ -19,9 +19,9 @@ const duvidas = [
     title: "O que é a TCC?",
     content:"A Terapia Cognitivo-Comportamental (TCC) é uma abordagem da psicologia que entende que nossos pensamentos, emoções e comportamentos estão interligados. O processo terapêutico é baseado na identificação de pensamentos disfuncionais, suas crenças e padrões de comportamento que estão atuando na manutenção do sofrimento. Assim, o paciente será guiado para aprender a desenvolver, de forma colaborativa com o terapeuta, formas mais equilibradas de pensar e se comportar diante das situações do dia a dia. A TCC é estruturada, focada no presente e voltada para a resolução de problemas, sendo eficaz para ansiedade, depressão, fobias, entre outros. Além disso, monitora continuamente o progresso do paciente, tendo como objetivo a promoção de qualidade de vida e autonomia.",
   },
-  {
-    title: "Qual o valor das sessões?",
-    content: "O serviço é prestado em forma de assinatura mensal que inclui 4 sessões de psicoterapia semanais em horário fixo, com duração de 50 minutos. Para consultar os valores entre em contato.",
+  { 
+    title: "O que é DBT?",
+    content: "A DBT (Terapia Comportamental Dialética) é uma abordagem terapêutica baseada na ciência do comportamento, especialmente indicada para pessoas que sentem emoções com muita intensidade e têm dificuldade para lidar com elas de forma equilibrada. É indicada para pessoas que enfrentam comportamentos impulsivos, autolesivos, dificuldades nos relacionamentos ou episódios emocionais muito intensos.Tem como foco promover aceitação e mudança. O paciente aprende a acolher suas emoções e sua história com compaixão, ao mesmo tempo em que desenvolve habilidades práticas para lidar com a causa do sofrimento. Durante o processo terapêutico, serão trabalhados 4 conjuntos de habilidades: mindfulness, regulação emocional, tolerância ao mal-estar e habilidades interpessoais."
   },
 ];
 

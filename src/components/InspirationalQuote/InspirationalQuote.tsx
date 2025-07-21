@@ -16,10 +16,10 @@ const InspirationalQuote = () => {
         options={{
           strings: ['"Quando você começa a caminhar, o caminho aparece."'],
           autoStart: true,
-          delay: 100,
+          delay: 80,
           cursor: '', 
           loop: true,
-          wrapperClassName: 'typewriter-wrapper',
+          wrapperClassName: 'typewriter-wrapper', 
         }}
       />
     </QuoteContainer>
