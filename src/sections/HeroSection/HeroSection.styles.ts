@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const HeroSectionContainer = styled.div`
   width: 100%;
   background: #EEE2DF;
+   min-height: 600px;
   height: auto;
   display: flex;
   justify-content: center;
@@ -20,6 +21,7 @@ export const HeroSectionContainer = styled.div`
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 3rem 0 3rem 2rem;
     width: 470px;
+    object-fit: cover; 
 
     @media (max-width: 841px) {
       display: none;
