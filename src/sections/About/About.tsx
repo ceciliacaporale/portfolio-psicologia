@@ -5,6 +5,7 @@ import {
   BrandIcon,
   ContainerImage,
 } from './About.styles';
+import { Image } from 'astro:assets';
 import HeroImage from "../../assets/lauralacerda.jpeg?url";
 import Brand from "../../assets/iconepsi.png?url";
 import {
@@ -29,13 +30,7 @@ const About = () => {
     <ContainerBackground>
     <AboutContainer id="sobre">
       <ContainerImage>
-        <img
-          src={HeroImage}
-          alt="Imagem da Psicóloga Laura"
-          width={400}
-          loading="lazy"
-          className="main-image"
-        />
+       <Image src={HeroImage} alt="Imagem da Psicóloga Laura" width={400} height={400} />
         <BrandIcon>
           <img
             src={Brand}
