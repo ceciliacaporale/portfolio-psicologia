@@ -21,23 +21,31 @@ const Contact = () => {
     <ContainerMain>
       <ContactContainer id="contato" as="section">
         <ContainerImage>
-        <img
-          src={LauraPsi}
-          alt="Psicóloga Laura Lacerda"
-          width={400}
-          loading="lazy"
-          className="main-image"
-          />
-        <BrandIcon>
           <img
-            src={Brand}
-            alt="Ícone da Psicologia"
-            width={110}
-            height={110}
+            src={LauraPsi}
+            alt="Psicóloga Laura Lacerda"
+            width={400}
+            height={516}
             loading="lazy"
-            className="mobile-image"
+            className="main-image"
+            decoding="async"
+            style={{
+              objectFit: 'cover',
+              backgroundColor: '#f0f0f0'
+            }}
+          />
+          
+          <BrandIcon>
+            <img
+              src={Brand}
+              alt="Ícone da Psicologia"
+              width={110}
+              height={110}
+              loading="lazy"
+              className="mobile-image"
+              decoding="async"
             />
-        </BrandIcon>
+          </BrandIcon>
         </ContainerImage>
         <ContainerItens>
           <ContactItem as="address">
