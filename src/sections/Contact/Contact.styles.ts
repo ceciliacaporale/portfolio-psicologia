@@ -88,5 +88,5 @@ export const BrandIcon = styled.div`
 
 
 export const ContainerImage = styled.div`
-  position: relative;
+position: relative;
 `;
