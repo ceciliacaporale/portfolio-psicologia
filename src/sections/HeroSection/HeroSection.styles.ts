@@ -13,6 +13,9 @@ export const HeroSectionContainer = styled.div`
 
   @media (max-width: 894px) {
     padding: 6rem 2rem;
+  }
+
+  @media (max-width: 796px) {
     gap: 0;
   }
 
