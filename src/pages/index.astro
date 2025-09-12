@@ -8,6 +8,8 @@ import Approach from '../sections/Approach';
 import Contact from '../sections/Contact';
 import InspirationalQuote from '../components/InspirationalQuote';
 import Footer from "../components/Footer";
+import Analytics from '@vercel/analytics/astro'
+
 ---
 
 <html lang="en">
@@ -22,6 +24,7 @@ import Footer from "../components/Footer";
 	<body>
 	<Header client:only="react" />
 		<main>
+		<Analytics />
 		<HeroSection client:only="react" />
 		<About client:only="react" />
 		<Approach client:only="react" />
