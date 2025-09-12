@@ -36,7 +36,7 @@ const Footer = () => {
             <a href="https://wa.me/5534984146045?text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20psicoterapia." target="_blank" rel="noopener noreferrer">
               <FaWhatsapp size={32} color="#C97C5D" />
             </a>
-            <a href="mailto:emailaura@email.com">
+            <a href="mailto:psi.lauralacerda@gmail.com">
               <HiOutlineMail size={32} color="#C97C5D" />
             </a>
             <a
