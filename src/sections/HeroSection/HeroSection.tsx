@@ -20,7 +20,7 @@ const HeroSection = () => {
         <Content>
           <ScrollAnimation delay={0.2}>
           <ContainerText>
-            <h1 className="visually-hidden">Psicóloga em Uberlândia</h1>
+            <h1 className="visually-hidden">Psicóloga em Uberlândia | Laura Lacerda Psicóloga</h1>
             <h2>Seja bem-vindo(a)!</h2>
             <p>
 Meu nome é Laura Lacerda, sou psicóloga clínica (CRP 04/80236) e o meu objetivo é conduzir uma prática respeitosa, com conexão e humanidade. Vejo a psicoterapia como um processo que auxilia em direção a uma vida com propósito, ajudando a tomar decisões que nos aproximam daquilo que é importante para nós.            </p>
