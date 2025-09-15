@@ -24,6 +24,8 @@ export const HeroSectionContainer = styled.div`
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 3rem 0 3rem 2rem;
     width: 470px;
+    height: auto;
+    aspect-ratio: 470 / 600;
     object-fit: cover; 
 
     @media (max-width: 841px) {

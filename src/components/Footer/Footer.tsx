@@ -25,7 +25,7 @@ const Footer = () => {
         <TopRow>
           <Logo>
             <a href="/">
-              <img src={Brand} alt="Logo Laura" />
+              <img src={Brand} alt="Logo Laura" height={70} width={60} />
             </a>
           </Logo>
 

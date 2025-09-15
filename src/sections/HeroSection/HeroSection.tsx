@@ -13,6 +13,7 @@ const HeroSection = () => {
           src={HeroImage}
           alt="Imagem da Psicóloga Laura"
           width={470}
+          height={600}
           loading="lazy"
           />
           </ScrollAnimation>

@@ -33,6 +33,7 @@ const About = () => {
           src={HeroImage}
           alt="Imagem da Psicóloga Laura"
           width={400}
+          height={499}
           loading="lazy"
           className="main-image"
         />

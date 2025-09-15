@@ -13,8 +13,8 @@ const Header = () => {
       <Content>
       <Logo>
         <a href="/">
-        <img src={MainLogo} alt="Logo Psicóloga Laura" width={260} loading="lazy" className="desktop-logo" />
-        <img src={MobileLogo} alt="Logo Psicóloga Laura" width={60} loading="lazy" className="mobile-logo" />
+        <img src={MainLogo} alt="Logo Psicóloga Laura" width={260} height={50} loading="lazy" className="desktop-logo" />
+        <img src={MobileLogo} alt="Logo Psicóloga Laura" width={60} height={60} loading="lazy" className="mobile-logo" />
         </a>
       </Logo>
       <RightSide>

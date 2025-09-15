@@ -61,7 +61,7 @@ export const Nav = styled.nav`
   
   a {
     text-decoration: none;
-    color: #C97C5D;
+    color: #8C4B39;
     font-size: 20px;
     font-weight: 100;
     

@@ -25,6 +25,7 @@ const Contact = () => {
           src={LauraPsi}
           alt="Psicóloga Laura Lacerda"
           width={400}
+          height={355}
           loading="lazy"
           className="main-image"
           />

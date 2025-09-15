@@ -89,7 +89,7 @@ const DisplayCardList = () => {
           </CardWrapper>
           <DotsContainer>
             {cards.map((_, i) => (
-              <Dot key={i} active={i === activeIndex} onClick={() => scrollToCard(i)} />
+              <Dot key={i} active={i === activeIndex} onClick={() => scrollToCard(i)} aria-label={`Ir para o slide ${i + 1}`}  aria-current={i === activeIndex ? "true" : undefined}/>
             ))}
           </DotsContainer>
         </CarouselContainer>
