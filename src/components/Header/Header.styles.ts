@@ -90,13 +90,13 @@ export const Nav = styled.nav`
 
 export const Button = styled.a`
   padding: 10px 20px;
-  background-color: #C97C5D;
-  color: white !important;
+  background-color: #B36A5E;
+  color: #ffffff;
   border-radius: 5px;
   text-decoration: none;
 
   &:hover {
-    background-color: #B36A5E;
+    background-color: #933E2E;
     color: white;
   }
 `;

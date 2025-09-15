@@ -79,7 +79,7 @@ export const ContainerText = styled.div`
       align-items: center;
       gap: 8px;
 
-      h4 {
+      h3 {
         font-weight: 400;
         margin-top: 8px;
         font-size: 15px;

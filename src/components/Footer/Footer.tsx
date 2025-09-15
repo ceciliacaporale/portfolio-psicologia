@@ -30,17 +30,18 @@ const Footer = () => {
           </Logo>
 
           <SocialMedia>
-            <a href="https://www.instagram.com/luminar.saudemental/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/luminar.saudemental/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da psicóloga Laura Lacerda">
               <FaInstagram size={32} color="#C97C5D" />
             </a>
-            <a href="https://wa.me/5534984146045?text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20psicoterapia." target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5534984146045?text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20psicoterapia." target="_blank" rel="noopener noreferrer" aria-label="Converse pelo WhatsApp com a psicóloga Laura Lacerda">
               <FaWhatsapp size={32} color="#C97C5D" />
             </a>
-            <a href="mailto:psi.lauralacerda@gmail.com">
+            <a href="mailto:psi.lauralacerda@gmail.com" aria-label="Envie um email para psi.lauralacerda@gmail.com">
               <HiOutlineMail size={32} color="#C97C5D" />
             </a>
             <a
               href="https://www.google.com/maps/place/Av.+Getúlio+Vargas,+275+-+Centro,+Uberlândia+-+MG,+38400-299"
+              aria-label="Endereço no Google Maps: Av. Getúlio Vargas, 275, Uberlândia - MG"
               target="_blank"
               rel="noopener noreferrer"
             >

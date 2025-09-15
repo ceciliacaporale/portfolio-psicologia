@@ -59,7 +59,7 @@ const About = () => {
           {services.map(({ icon, label }, idx) => (
             <div className="service" key={idx}>
               {icon}
-              <h4>{label}</h4>
+              <h3>{label}</h3>
             </div>
           ))}
         </div>

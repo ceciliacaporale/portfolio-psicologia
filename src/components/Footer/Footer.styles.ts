@@ -64,7 +64,7 @@ export const SocialMedia = styled.div`
 `;
 
 export const Copy = styled.p`
-  color: #C97C5D;
+  color: #933E2E;
   font-weight: 100;
   font-size: 0.95rem;
   text-align: center;

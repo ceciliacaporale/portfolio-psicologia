@@ -69,8 +69,8 @@ export const ContainerText = styled.div`
 export const Button = styled.a`
   margin-top: 40px;
   padding: 20px 30px;
-  background-color: #C97C5D;
-  color: white;
+  background-color: #B36A5E;
+  color: #ffffff;
   border-radius: 5px;
   text-decoration: none;
   display: inline-flex;
@@ -79,7 +79,7 @@ export const Button = styled.a`
   gap: 8px;
 
   &:hover {
-    background-color: rgb(170, 103, 76);
+    background-color: #933E2E;
   }
 
   svg {
