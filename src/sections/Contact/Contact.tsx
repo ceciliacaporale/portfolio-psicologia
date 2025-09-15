@@ -23,7 +23,7 @@ const Contact = () => {
         <ContainerImage>
         <img
           src={LauraPsi}
-          alt="Psicóloga Laura Lacerda"
+          alt="Psicóloga Uberlândia -  Laura Lacerda"
           width={400}
           height={355}
           loading="lazy"
