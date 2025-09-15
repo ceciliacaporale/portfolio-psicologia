@@ -14,8 +14,8 @@ export const AboutContainer = styled.div`
   border-bottom-left-radius: 10%;
 
   @media (max-width: 556px) {
-    border-bottom-right-radius: 6%;
-    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
   }
 
   @media (min-width: 844px) {
@@ -47,6 +47,7 @@ export const AboutContainer = styled.div`
 
     @media (max-width: 843px) {
       width: 400px;
+      margin-top: 2rem;
     }
 
     @media (max-width: 434px) {
