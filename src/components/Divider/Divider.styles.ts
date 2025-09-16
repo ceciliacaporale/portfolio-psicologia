@@ -1,4 +1,9 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const bounce = keyframes`
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
+`;
 
 export const Container = styled.div`
   z-index: 99;
@@ -27,5 +32,11 @@ export const DividerSvg = styled.svg`
   width: 100%;
   height: auto;
   display: block;
+  margin-bottom: 5px;
   position: relative;
+
+  .arrow-fill {
+    animation: ${bounce} 1.2s ease-in-out infinite;
+    transform-origin: center;
+  }
 `;
