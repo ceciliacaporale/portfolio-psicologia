@@ -13,61 +13,78 @@ import Analytics from '@vercel/analytics/astro'
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
-		<title>Psicóloga Laura Lacerda Uberlândia</title>
-		
-		<meta 
-			name="description" 
-			content="Psicóloga Uberlândia - Laura Lacerda." 
-		/>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        
+        <link 
+            rel="preload" 
+            href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" 
+            as="style" 
+        />
+        <link 
+            rel="stylesheet" 
+            href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" 
+            media="print" 
+            onload="this.media='all'" 
+        />
+        <noscript>
+            <link 
+                rel="stylesheet" 
+                href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" 
+            />
+        </noscript>
+        <title>Psicóloga Laura Lacerda Uberlândia</title>
+        
+        <meta 
+            name="description" 
+            content="Psicóloga Uberlândia - Laura Lacerda." 
+        />
 
-		<meta 
-			name="keywords" 
-			content="psicologo, psicólogo em uberlândia, psicóloga em Uberlandia, psicóloga uberlândia, psicologa, psicóloga Uberlândia, psicólogo Uberlândia, atendimento online, Uberlândia Minas Gerais, terapia, psicoterapia, tcc, terapia cognitivo comportamental, terapia para casais, terapia individual, terapia online, psicoterapia online, psicoterapia Uberlândia, Laura Lacerda" 
-		/>
+        <meta 
+            name="keywords" 
+            content="psicologo, psicólogo em uberlândia, psicóloga em Uberlandia, psicóloga uberlândia, psicologa, psicóloga Uberlândia, psicólogo Uberlândia, atendimento online, Uberlândia Minas Gerais, terapia, psicoterapia, tcc, terapia cognitivo comportamental, terapia para casais, terapia individual, terapia online, psicoterapia online, psicoterapia Uberlândia, Laura Lacerda" 
+        />
 
-		<link rel="canonical" href="https://www.psicologalauralacerda.com.br/" />
-		
-		<script type="application/ld+json">
-			{
-			"@context": "https://schema.org",
-			"@type": "Psychologist",
-			"name": "Psicóloga Uberlândia - Laura Lacerda",
-			"description": "Atendimento psicológico online e presencial em Uberlândia - Terapia Cognitivo-Comportamental (TCC) e terapias contextuais como DBT.",
-			"address": {
-				"@type": "PostalAddress",
-				"addressLocality": "Uberlândia",
-				"addressRegion": "MG",
-				"addressCountry": "BR"
-			},
-			"areaServed": {
-				"@type": "Place",
-				"name": "Uberlândia, Minas Gerais"
-			},
-			"url": "https://www.psicologalauralacerda.com.br/"
-			}
-			</script>
-			<meta property="og:title" content="Psicóloga Uberlândia - Laura Lacerda" />
-			<meta property="og:description" content="Atendimento psicológico online e presencial em Uberlândia. Terapia Cognitivo-Comportamental (TCC) e DBT para adolescentes e adultos." />
-			<meta property="og:type" content="website" />
-			<meta property="og:url" content="https://www.psicologalauralacerda.com.br/" />
-	</head>
-	<body>
-	<Header client:only="react" />
-		<main>
-		<Analytics />
-		<HeroSection client:only="react" />
-		<About client:only="react" />
-		<Approach client:only="react" />
-		<Doubts client:only="react" />
-		<Contact client:only="react" />
-		<InspirationalQuote client:only="react" />
-	</main>
-	<Footer client:only="react" />
-	</body>
+        <link rel="canonical" href="https://www.psicologalauralacerda.com.br/" />
+        
+        <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "Psychologist",
+            "name": "Psicóloga Uberlândia - Laura Lacerda",
+            "description": "Atendimento psicológico online e presencial em Uberlândia - Terapia Cognitivo-Comportamental (TCC) e terapias contextuais como DBT.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Uberlândia",
+                "addressRegion": "MG",
+                "addressCountry": "BR"
+            },
+            "areaServed": {
+                "@type": "Place",
+                "name": "Uberlândia, Minas Gerais"
+            },
+            "url": "https://www.psicologalauralacerda.com.br/"
+            }
+            </script>
+            <meta property="og:title" content="Psicóloga Uberlândia - Laura Lacerda" />
+            <meta property="og:description" content="Atendimento psicológico online e presencial em Uberlândia. Terapia Cognitivo-Comportamental (TCC) e DBT para adolescentes e adultos." />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://www.psicologalauralacerda.com.br/" />
+    </head>
+    <body>
+    <Header client:only="react" />
+        <main>
+        <Analytics />
+        <HeroSection client:only="react" />
+        <About client:only="react" />
+        <Approach client:only="react" />
+        <Doubts client:only="react" />
+        <Contact client:only="react" />
+        <InspirationalQuote client:only="react" />
+    </main>
+    <Footer client:only="react" />
+    </body>
 </html>
